@@ -89,6 +89,9 @@
         <span class="selected-language">English</span>
       </a>
       <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdown-flag">
+        <a class="dropdown-item" href="{{ url('lang/ru') }}" data-language="ru">
+          <i class="flag-icon flag-icon-ru"></i> Русский
+        </a>
         <a class="dropdown-item" href="{{ url('lang/en') }}" data-language="en">
           <i class="flag-icon flag-icon-us"></i> English
         </a>
