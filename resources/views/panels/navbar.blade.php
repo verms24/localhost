@@ -38,7 +38,7 @@
                   </g>
                 </g>
               </svg></span>
-            <h2 class="brand-text mb-0">Vuexy</h2>
+            <h2 class="brand-text mb-0">SKLAD</h2>
           </a>
         </li>
       </ul>
@@ -76,7 +76,7 @@
           <div class="bookmark-input-icon">
             <i data-feather="search"></i>
           </div>
-          <input class="form-control input" type="text" placeholder="Bookmark" tabindex="0" data-search="search">
+          <input class="form-control input" type="text" placeholder="Закладки" tabindex="0" data-search="search">
           <ul class="search-list search-list-bookmark"></ul>
         </div>
       </li>
@@ -112,7 +112,7 @@
           data-feather="search"></i></a>
       <div class="search-input">
         <div class="search-input-icon"><i data-feather="search"></i></div>
-        <input class="form-control input" type="text" placeholder="Explore Vuexy..." tabindex="-1" data-search="search">
+        <input class="form-control input" type="text" placeholder="Введите запрос..." tabindex="-1" data-search="search">
         <div class="search-input-close"><i data-feather="x"></i></div>
         <ul class="search-list search-list-main"></ul>
       </div>
@@ -545,7 +545,7 @@
     <a class="d-flex align-items-center justify-content-between w-100 py-50">
       <div class="d-flex justify-content-start">
         <span class="me-75" data-feather="alert-circle"></span>
-        <span>No results found.</span>
+        <span>Результатов не найдено.</span>
       </div>
     </a>
   </li>

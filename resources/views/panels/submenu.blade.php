@@ -8,7 +8,8 @@
           @if (isset($submenu->icon))
             <i data-feather="{{ $submenu->icon }}"></i>
           @endif
-          <span class="menu-item text-truncate">{{ __('locale.' . $submenu->name) }}</span>
+          <!--{{ __('locale.' . $submenu->name) }} с переводом-->
+          <span class="menu-item text-truncate">{{ $submenu->name }}</span>
         </a>
         @if (isset($submenu->submenu))
           @include('panels/submenu', ['menu' => $submenu->submenu])
