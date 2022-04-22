@@ -55,13 +55,14 @@ $configData = Helper::applClasses();
   </div>
   <div class="shadow-bottom"></div>
   <div class="main-menu-content">
+    {{ Route::currentRouteName() }} <!--Текущий адрес-->
     <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
       {{-- Foreach menu item starts --}}
       @if (isset($menuData[0]))
         @foreach ($menuData[0]->menu as $menu)
           @if (isset($menu->navheader))
             <li class="navigation-header">
-              <span>{{ __('locale.' . $menu->navheader) }}</span>
+              <span>{{ $menu->navheader }}</span>
               <i data-feather="more-horizontal"></i>
             </li>
           @else
